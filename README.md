@@ -13,5 +13,21 @@ localhost:3000/platform/product/create-->Create a product according to scheme st
 localhost:3000/platform/product/:_id:-->get product by id using mongodb*
 localhost:3000/platform/changePassword/:_id:-->change product specification*
 localhost:3000/platform/deleteprod/:_id:-->Delete a product.
+schema for user (please use post request to send new user before using get request)
+    index:{
+        type:Number
+	name:{
+		type: String
+    email:{
+		type: String
+    contact:{
+		type: String
+    prod:{
+		type: Number,
+    budget:{
+		type:Number,
+	
+    
 (not fully working:-->*)
+
 
